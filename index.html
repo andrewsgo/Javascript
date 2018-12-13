@@ -10,8 +10,11 @@
                 var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 console.log("Today is : "+ daylist[day] + ".");
                 var hour =today.getHours();
+                    console.log("Hour: ",hour);
                 var minute = today.getMinutes();
+                    console.log("Minute: ",minute);
                 var second = today.getSeconds();
+                    console.log("Second: ",second);
                 var prepand = (hour >= 12)? " PM ":" AM ";
                 hour = (hour >= 12)? hour - 12: hour;
                 if  (hour===0 && prepand===' PM ')
